@@ -1,1 +1,87 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "roboto", sans-serif;
+    color: rgb(84, 77, 77);
+}
+
+header div {
+
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 5% 0 2.5% 0;
+}
+
+.prueba {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.textCentered {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 2% 10%;
+}
+.tc1 {
+    padding: 0.5% 10% 0 10%;
+}
+
+.tc2 {
+    padding: 1% 10% 0.5% 10%;
+}
+
+nav {
+    background-color: rgb(255, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 0.5% auto 0.5% auto;
+    padding: 1% 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+  }
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#mainzer_dom {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section p {
+    margin-top: 0.5%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: hotpink;
+    position: absolute;
+    padding: 0.5%;
+}
