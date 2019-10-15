@@ -21,7 +21,7 @@ h1 {
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    padding: 5% 0 2.5% 0;
+    padding: 2.5% 0 2.5% 0;
 }
 
 #text-red {
@@ -89,7 +89,7 @@ nav ul a:hover {
     position: relative;
 }
 
-.section p {
+.section > div > p {
     color: white;
     font-size: 1.8em;
     background-color: rgb(255, 0, 0, 0.8);
@@ -102,55 +102,67 @@ nav ul a:hover {
 .section_dos {
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
-#text-runter {
-    margin-bottom: 2%;
+.dentrofoto {
+        color: white;
+        font-size: 1.8em;
+        background-color: rgb(255, 0, 0, 0.8);
+        display: flex;
+        padding: 0.5% 1% 0.5% 1%;
 }
 
-.geschichte {
+.subsection1 {
     background-color: hotpink; 
     margin-right: 2%;
     padding: 1%;
     width: 70%;
 }
 
-.line {
+.subsection1 .line {
     background-color: grey; 
     display: flex;
     justify-content: space-around;
+    margin: 2.5% 0;
 }
 
 .line article {
     background-color: green;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 1%;
+    align-items: flex-start;
+    padding: 0;
+    width: 90%;
 }
 
 .line article a {
-    background-color: white;    
     text-decoration: none;
     color: red;
     font-weight: bold;
     font-size: 0.8rem;
-    padding: 2px;
+    position: relative;
+    margin-bottom: 3%;
 }
 
-.geschichte div .row img {
-    margin-bottom: 3%;
-    width: 180px;
+.line article a span {
+    position: absolute;
+    color: red;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 1%;
+}
+
+.subsection1 div article img {
+    width: 90%;
     height: 120px; 
 }
 
 .text {
-    text-align: center;
-    font-weight: bold;
+    text-align: justify;
     font-size: 0.8rem;
-    width: 60%%;
-    background-color: green;
+    background-color: yellow;
+    width: 90%
 }
 
 #lateral {
