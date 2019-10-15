@@ -102,37 +102,64 @@ nav ul a:hover {
 .section_dos {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
+#text-runter {
+    margin-bottom: 2%;
+}
 
-#fila {
-    display: flex;
-    justify-content: space-around;
+.geschichte {
+    background-color: hotpink; 
+    margin-right: 2%;
+    padding: 1%;
     width: 70%;
 }
 
-#fila .row {
+.line {
+    background-color: grey; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.line article {
+    background-color: green;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1%;
 }
 
-#fila .row img {
-    width: 270px;
-    height: 180px;
+.line article a {
+    background-color: white;    
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 2px;
+}
+
+.geschichte div .row img {
     margin-bottom: 3%;
+    width: 180px;
+    height: 120px; 
 }
 
 .text {
     text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 60%%;
+    background-color: green;
 }
 
 #lateral {
-    margin: 0 auto;
     background-color: rgb(255, 0, 0, 0.8);
     color: white;
     padding: 1%;
+    width: 30%;
+    height: fit-content;
+    font-size: 0.8rem;
 }
 
 #lateral div article div {
