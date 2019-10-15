@@ -17,9 +17,10 @@ header div {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 3px;
     padding: 5% 0 2.5% 0;
 }
 
@@ -52,7 +53,7 @@ nav {
     font-weight: bold;
     font-size: 0.8rem;
     width: 80%;
-    margin: 0.5% auto 0.5% auto;
+    margin: 1% auto 0.5% auto;
     padding: 1% 0;
 }
 
@@ -84,7 +85,7 @@ nav ul a:hover {
     width: 100%;
     display: flex;
     height: auto;
-    margin: 0 auto;
+    margin: 2% auto;
     position: relative;
 }
 
@@ -100,17 +101,14 @@ nav ul a:hover {
 
 .section_dos {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
 }
 
-#geschichte-entdecken {
-    width:70%
-}
 
 #fila {
     display: flex;
     justify-content: space-around;
+    width: 70%;
 }
 
 #fila .row {
@@ -131,6 +129,31 @@ nav ul a:hover {
 }
 
 #lateral {
+    margin: 0 auto;
     background-color: rgb(255, 0, 0, 0.8);
-    width: 20%;
+    color: white;
+    padding: 1%;
 }
+
+#lateral div article div {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 2% 0;
+}
+
+#lateral div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lage {
+    margin-bottom: 2%;
+}
+
+.map-frame {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    height: 200px;
+    padding: 5px rgba(250, 248, 248, 0.8);
+  }
