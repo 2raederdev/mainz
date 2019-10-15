@@ -104,14 +104,6 @@ nav ul a:hover {
     flex-direction: row;
 }
 
-.dentrofoto {
-        color: white;
-        font-size: 1.8em;
-        background-color: rgb(255, 0, 0, 0.8);
-        display: flex;
-        padding: 0.5% 1% 0.5% 1%;
-}
-
 .subsection1 {
     background-color: hotpink; 
     margin-right: 2%;
@@ -148,19 +140,20 @@ nav ul a:hover {
     position: absolute;
     color: red;
     left: 0;
-    bottom: 0;
+    bottom: 1.9%;
     background-color: white;
     padding: 1%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .subsection1 div article img {
-    width: 90%;
-    height: 120px; 
+    width: 100%;
+    height: 160px; 
 }
 
 .text {
     text-align: justify;
-    font-size: 0.8rem;
     background-color: yellow;
     width: 90%
 }
