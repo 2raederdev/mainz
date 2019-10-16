@@ -131,10 +131,6 @@ div.line article a {
     position: relative;
 }
 
-.subsection1 div.line article a:hover {
-    filter: brightness(70%);
-}
-
 .subsection1 div.line article a span {
     position: absolute;
     left: 0;
@@ -151,6 +147,9 @@ div.line article a {
     width: 100%
 }
 
+.subsection1 div.line article a img:hover {
+    filter: brightness(70%);
+}
 
 .subsection1 div.line article .text {
     margin-top:2%;
