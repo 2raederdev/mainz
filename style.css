@@ -12,10 +12,6 @@ body {
     color: rgb(84, 77, 77);
 }
 
-header div {
-
-}
-
 h1 {
     font-size: 7rem;
     font-weight: 700;
@@ -28,7 +24,7 @@ h1 {
     color: rgb(255, 0, 0, 0.8);
 }
 
-.prueba {
+header {
     margin: 0 auto;
     width: 80%;
 }
@@ -37,14 +33,15 @@ h1 {
     text-align: center;
     font-weight: bold;
     line-height: 1.5;
-    padding: 2% 10%;
+    padding: 2% 0;
 }
+
 .tc1 {
-    padding: 0.5% 10% 0 10%;
+    padding: 0.5% 0 0 0;
 }
 
 .tc2 {
-    padding: 1% 10% 0.5% 10%;
+    padding: 1% 0 0.5% 0;
 }
 
 nav {
@@ -52,7 +49,6 @@ nav {
     color: white;
     font-weight: bold;
     font-size: 0.8rem;
-    width: 80%;
     margin: 1% auto 0.5% auto;
     padding: 1% 0;
 }
@@ -105,57 +101,61 @@ nav ul a:hover {
 }
 
 .subsection1 {
-    background-color: hotpink; 
     margin-right: 2%;
-    padding: 1%;
     width: 70%;
+    font-size: 0.8rem;
+    color: rgb(255, 0, 0, 0.8);
+}
+
+.geschichte {
+    margin-bottom: 1%;
 }
 
 .subsection1 .line {
-    background-color: grey; 
     display: flex;
-    justify-content: space-around;
-    margin: 2.5% 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .line article {
-    background-color: green;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0;
-    width: 90%;
+    width: 30%;
+    min-width: 200px;
+    margin: 1.5% 1.5% 1.5% 0;
 }
 
-.line article a {
+div.line article a {
     text-decoration: none;
-    color: red;
+    color: rgb(255, 0, 0, 0.8);
     font-weight: bold;
-    font-size: 0.8rem;
     position: relative;
-    margin-bottom: 3%;
 }
 
-.line article a span {
+.subsection1 div.line article a:hover {
+    filter: brightness(70%);
+}
+
+.subsection1 div.line article a span {
     position: absolute;
-    color: red;
     left: 0;
-    bottom: 1.9%;
+    bottom: 4;
     background-color: white;
     padding: 1%;
     text-transform: uppercase;
     letter-spacing: 1px;
+    width: fit-content;
 }
 
-.subsection1 div article img {
-    width: 100%;
-    height: 160px; 
+.subsection1 div.line article a img {
+    height: 160px;
+    width: 100%
 }
 
-.text {
-    text-align: justify;
-    background-color: yellow;
-    width: 90%
+
+.subsection1 div.line article .text {
+    margin-top:2%;
+    font-size: 0.8rem;
+    color: rgb(84, 77, 77)
 }
 
 #lateral {
@@ -189,3 +189,51 @@ nav ul a:hover {
     height: 200px;
     padding: 5px rgba(250, 248, 248, 0.8);
   }
+
+footer {
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    padding: 2% 0 0 0;
+}
+
+footer div {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 1% 0;
+    width: 40%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: row;;
+}
+
+footer ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: rgb(84, 77, 77);
+    margin-top: 3%;
+  }
+
+footer ul a:hover {
+    color: rgb(84, 77, 77, 0.5);
