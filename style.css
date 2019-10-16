@@ -209,31 +209,34 @@ footer div {
     font-weight: bold;
     font-size: 0.8rem;
     padding: 1% 0;
-    width: 40%;
-}
-
-footer ul {
+    width: 30%;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-footer ul li {
+footer div article {
+    margin: 0 5% 5% 5%;
+}
+
+footer div article a {
+    width: 30%;
+    min-width: 30px;
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
+    text-decoration: none;
 }
 
-footer ul li img{
+footer div article img {
     width: 20px;
     height: 20px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
-footer ul a {
-    text-decoration: none;
+footer div article p {
     color: rgb(84, 77, 77);
-    margin-top: 3%;
-  }
+}
 
-footer ul a:hover {
-    color: rgb(84, 77, 77, 0.5);
+footer div article p:hover {
+    color: rgb(255, 0, 0, 0.8)
+}
